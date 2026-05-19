@@ -1,0 +1,23 @@
+﻿def trajectory_replay():
+  qnear = get_actual_joint_positions()
+
+  P0 = p[-0.175100, -0.458370, 0.415050, -0.064800, -0.030000, 0.138600]
+  P1 = p[0.319860, -0.388900, 0.427800, -0.064900, -0.030000, 0.138400]
+  P2 = p[0.265120, 0.006460, 0.401090, -0.064900, -0.030000, 0.138300]
+  P3 = p[0.258240, 0.019000, 0.600590, -0.065000, -0.030000, 0.138300]
+  P4 = p[0.285550, -0.178660, 0.613930, -0.065000, -0.030200, 0.138200]
+  P5 = p[0.295900, -0.197490, 0.314700, -0.065000, -0.030200, 0.138100]
+  P6 = p[-0.175100, -0.458370, 0.415050, -0.064800, -0.030000, 0.138600]
+
+  movej(get_inverse_kin(P0, qnear=qnear), a=0.5000, v=0.3000, t=0.0, r=0.0)
+  servoj(get_inverse_kin(P1, qnear=get_actual_joint_positions()), t=0.025000, lookahead_time=0.2000, gain=100)
+  servoj(get_inverse_kin(P2, qnear=get_actual_joint_positions()), t=0.025000, lookahead_time=0.2000, gain=100)
+  servoj(get_inverse_kin(P3, qnear=get_actual_joint_positions()), t=0.025000, lookahead_time=0.2000, gain=100)
+  servoj(get_inverse_kin(P4, qnear=get_actual_joint_positions()), t=0.025000, lookahead_time=0.2000, gain=100)
+  servoj(get_inverse_kin(P5, qnear=get_actual_joint_positions()), t=0.025000, lookahead_time=0.2000, gain=100)
+  servoj(get_inverse_kin(P6, qnear=get_actual_joint_positions()), t=0.025000, lookahead_time=0.2000, gain=100)
+
+  stopl(5)
+end
+
+trajectory_replay()
