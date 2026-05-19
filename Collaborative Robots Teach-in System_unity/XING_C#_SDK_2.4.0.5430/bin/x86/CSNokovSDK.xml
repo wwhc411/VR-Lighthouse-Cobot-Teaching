@@ -1,0 +1,1310 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSNokovSDK</name>
+    </assembly>
+    <members>
+        <member name="T:CSNokovSDK.NokovSDKConstants">
+            <summary>
+            Class NokovSDKConstants.
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.NokovSDKLibDllBaseName">
+            <summary>
+            The XingYing SDK library DLL base name
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.NokovSDKLibCallingConvention">
+            <summary>
+            The XingYing SDK library calling convention
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.MaxModels">
+            <summary>
+            The maximum models
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.MaxRigidBodies">
+            <summary>
+            The maximum rigid bodies
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.MaxNameLength">
+            <summary>
+            The maximum name length
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.MaxMarkersets">
+            <summary>
+            The maximum markerset
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.MaxSkeletons">
+            <summary>
+            The maximum skeletons
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.MaxSkeletonRigidBodies">
+            <summary>
+            The maximum skeleton rigid bodies
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.MaxLabeledMarkers">
+            <summary>
+            The maximum labeled markers
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.MaxAnalogChannels">
+            <summary>
+            The maximum analog channels
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.MaxAnalogChannelsEx">
+            <summary>
+            The maximum analog channels
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.MaxUnLabeledMarkers">
+            <summary>
+            The maximum unlabeled markers
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.MaxMsgLength">
+            <summary>
+            The maximum msg length
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.MaxForcePlates">
+            <summary>
+            The maximum force plates
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.MaxAnalogSubFrames">
+            <summary>
+            The maximum analog sub frames
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.MAXPacketSize">
+            <summary>
+            The maximum packet size
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.One_MARKER_SIZE">
+            <summary>
+            The one marker size
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.NatPing">
+            <summary>
+            The nat ping
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.NatPingResponse">
+            <summary>
+            The nat ping response
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.NatRequest">
+            <summary>
+            The nat request
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.Natresponse">
+            <summary>
+            The natresponse
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.NatRequestModelDef">
+            <summary>
+            The nat request model definition
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.NatModelDef">
+            <summary>
+            The nat model definition
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.NatRequestFrameofData">
+            <summary>
+            The nat request frameof data
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.NatFrameofData">
+            <summary>
+            The nat frameof data
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.NatMessageString">
+            <summary>
+            The nat message string
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.DefaultCommandPort">
+            <summary>
+            The default command port
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.DefaultDataPort">
+            <summary>
+            The default data port
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConstants.Undefined">
+            <summary>
+            The undefined
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.NokovSDKError">
+            <summary>
+            Enum NokovSDKError
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKError.NokovSDKError_OK">
+            <summary>
+            The XingYing SDK error ok
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKError.NokovSDKError_Internal">
+            <summary>
+            The XingYing SDK error internal
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKError.NokovSDKError_External">
+            <summary>
+            The XingYing SDK error external
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKError.NokovSDKError_Network">
+            <summary>
+            The XingYing SDK error network
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKError.NokovSDKError_Other">
+            <summary>
+            The XingYing SDK error other
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.NokovVerbosity">
+            <summary>
+            Enum NokovVerbosity
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovVerbosity.Verbosity_None">
+            <summary>
+            The verbosity none
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovVerbosity.Verbosity_Info">
+            <summary>
+            The verbosity information
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovVerbosity.Verbosity_Warning">
+            <summary>
+            The verbosity warning
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovVerbosity.Verbosity_Error">
+            <summary>
+            The verbosity error
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovVerbosity.Verbosity_Debug">
+            <summary>
+            The verbosity debug
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.NokovSDKConnectionType">
+            <summary>
+            Enum NokovSDKConnectionType
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConnectionType.NokovSDKConnectionType_Multicast">
+            <summary>
+            The XingYing SDK connection type multicast
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKConnectionType.NokovSDKConnectionType_Unicast">
+            <summary>
+            The XingYing SDK connection type unicast
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.NokovSDKDataDescriptionType">
+            <summary>
+            Enum NokovSDKDataDescriptionType
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKDataDescriptionType.NokovSDKDataDescriptionType_MarkerSet">
+            <summary>
+            The XingYing SDK data description type marker set
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKDataDescriptionType.NokovSDKDataDescriptionType_RigidBody">
+            <summary>
+            The XingYing SDK data description type rigid body
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKDataDescriptionType.NokovSDKDataDescriptionType_Skeleton">
+            <summary>
+            The XingYing SDK data description type skeleton
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKDataDescriptionType.NokovSDKDataDescriptionType_ForcePlate">
+            <summary>
+            The XingYing SDK data description type forceplate
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKDataDescriptionType.NokovSDKDataDescriptionType_MarkerSetData">
+            <summary>
+            The XingYing SDK data description type markerset data
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovSDKDataDescriptionType.NokovSDKDataDescriptionType_Param">
+            <summary>
+            The XingYing SDK data description type param
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.NokovMocapDataType">
+            <summary> Enum NokovMocapDataType</summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovMocapDataType.NokovMocapDataFrameNO">
+            <summary>
+            The nokov mocap data frame no
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovMocapDataType.NokovMocapDataMarkerSetNum">
+            <summary>
+            The nokov mocap data marker set number
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovMocapDataType.NokovMocapDataRigidBodyNum">
+            <summary>
+            The nokov mocap data rigid body number
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovMocapDataType.NokovMocapDataSkeletonNum">
+            <summary>
+            The nokov mocap data skeleton number
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovMocapDataType.NokovMocapDataLabeledMarkerNum">
+            <summary>
+            The nokov mocap data labeled marker number
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovMocapDataType.NokovMocapDataOtherMarkerNum">
+            <summary>
+            The nokov mocap data other marker number
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovMocapDataType.NokovMocapDataAnalogChNum">
+            <summary>
+            The nokov mocap data analog ch number
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovMocapDataType.NokovMocapDataParam">
+            <summary>
+            The nokov mocap data parameter
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.NokovNotifyType">
+            <summary>Enum NokovNotifyType</summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovNotifyType.NokovRigidBodyChange">
+            <summary>
+            The XingYing SDK data notify type rigidbody
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovNotifyType.NokovSkeletonChange">
+            <summary>
+            The XingYing SDK data notify type skeleton
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovNotifyType.NokovDataChange">
+            <summary>
+            The XingYing SDK data notify data change
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovNotifyType.NokovStartPlay">
+            <summary>
+            The XingYing SDK data notify start play
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovNotifyType.NokovPausePlay">
+            <summary>
+            The XingYing SDK data notify pause play
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovNotifyType.NokovFrameRateChange">
+            <summary>
+            The XingYing SDK data notify frame rate change
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.NokovNotifyAction">
+            <summary>Enum NokovNotifyAction</summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovNotifyAction.ActionAdd">
+            <summary>
+            The XingYing SDK Notify Add Action
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovNotifyAction.ActionRemove">
+            <summary>
+            The XingYing SDK Notify Remove Action
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovNotifyAction.ActionCover">
+            <summary>
+            The XingYing SDK Notify Cover Action
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.NokovNotifyAction.ActionUpdate">
+            <summary>
+            The XingYing SDK Notify Update Action
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.MarkerDataVector">
+            <summary>
+            Struct MarkerDataVector
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.MarkerDataVector.Values">
+            <summary>
+            posX, posY, posZ
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.sDataDescriptions">
+            <summary>
+            Struct sDataDescriptions
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sDataDescriptions.DataDescriptionCount">
+            <summary>
+            The data description count
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sDataDescriptions.DataDescriptions">
+            <summary>
+            The data descriptions
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.sDataDescription">
+            <summary>
+            Struct sDataDescription
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sDataDescription.DescriptionType">
+            <summary>
+            The description type
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sDataDescription.Description">
+            <summary>
+            The description pointer
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.sMarkerSetDescription">
+            <summary>
+            Struct sMarkerSetDescription
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sMarkerSetDescription.Name">
+            <summary>
+            The MarkerSet name
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sMarkerSetDescription.MarkerCount">
+            <summary>
+            The number of markers in MarkerSet
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sMarkerSetDescription.MarkerNames">
+            <summary>
+            The marker names, char**, "array of marker names"
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.sRigidBodyDescription">
+            <summary>
+            Struct sRigidBodyDescription
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyDescription.Name">
+            <summary>
+            The RigidBody name
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyDescription.Id">
+            <summary>
+            The RigidBody identifier
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyDescription.ParentId">
+            <summary>
+            ID of parent Rigid Body (in case hierarchy exists)
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyDescription.OffsetX">
+            <summary>
+            The offset position x relative to parent
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyDescription.OffsetY">
+            <summary>
+            The offset position y relative to parent
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyDescription.OffsetZ">
+            <summary>
+            The offset position z relative to parent
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyDescription.Qx">
+            <summary>
+            The Orientation qx relative to parent 
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyDescription.Qy">
+            <summary>
+            The Orientation qy relative to parent 
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyDescription.Qz">
+            <summary>
+            The Orientation qz relative to parent 
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyDescription.Qw">
+            <summary>
+            The Orientation qz relative to parent 
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.sSkeletonDescription">
+            <summary>
+            Struct sSkeletonDescription
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sSkeletonDescription.Name">
+            <summary>
+            The name
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sSkeletonDescription.Id">
+            <summary>
+            The identifier
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sSkeletonDescription.RigidBodyCount">
+            <summary>
+            The rigid body count
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sSkeletonDescription.RigidBodies">
+            <summary>
+            The rigid bodies
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.sForcePlateDescription">
+            <summary>
+            Struct sForcePlateDescription
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlateDescription.Id">
+            <summary>
+            The identifier
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlateDescription.Scale">
+            <summary>
+            The scale
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlateDescription.Width">
+            <summary>
+            The width
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlateDescription.Length">
+            <summary>
+            The length
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlateDescription.Position">
+            <summary>
+            The position
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlateDescription.Electrical">
+            <summary>
+            The electrical
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlateDescription.Orientation">
+            <summary>
+            The orientation
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlateDescription.CalMat">
+            <summary>
+            The cal mat
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlateDescription.Corners">
+            <summary>
+            The corners
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlateDescription.PlateType">
+            <summary>
+            The plate type
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlateDescription.ChannelDataType">
+            <summary>
+            The channel data type
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlateDescription.Channels">
+            <summary>
+            The channels
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlateDescription.ChannelNames">
+            <summary>
+            The channel names
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.sDataParam">
+            <summary>
+            Struct sDataParam
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sDataParam.FrameRate">
+            <summary>
+            The frame rate
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sDataParam.Reserve1">
+            <summary>
+            The reserve1
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sDataParam.Reserve2">
+            <summary>
+            The reserve2
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sDataParam.Reserve3">
+            <summary>
+            The reserve3
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sDataParam.Reserve4">
+            <summary>
+            The reserve4
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.sFrameOfMocapData">
+            <summary>
+            Struct sFrameOfMocapData
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.FrameNumber">
+            <summary>
+            The frame number
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.MarkerSetCount">
+            <summary>
+            The marker set count
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.MarkerSets">
+            <summary>
+            The marker sets
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.OtherMarkerCount">
+            <summary>
+            The undefined marker count, 
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.OtherMarkers">
+            <summary>
+            The undefined markers, Pointer to float[OtherMarkerCount][3]
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.RigidBodyCount">
+            <summary>
+            The rigid body count
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.RigidBodies">
+            <summary>
+            The rigid bodies
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.SkeletonCount">
+            <summary>
+            The skeleton count
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.Skeletons">
+            <summary>
+            The skeletons
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.LabeledMarkerCount">
+            <summary>
+            The labeled marker count
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.LabeledMarkers">
+            <summary>
+            The labeled markers
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.AnalogdataCount">
+            <summary>
+            The analogdata count
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.Analogdata">
+            <summary>
+            The analogdata
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.FLatency">
+            <summary>
+            The host defined time delta between capture and send
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.Timecode">
+            <summary>
+            The SMPTE timecode (if available)
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.TimecodeSubframe">
+            <summary>
+            The timecode subframe
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.Timestamp">
+            <summary>
+            The FrameGroup timestamp, the number of milliseconds since the Epoch 1970-01-01 00:00:00 +0000 (UTC).
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfMocapData.Params">
+            <summary>
+            The host defined parameters
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.sFrameOfAnalogChannelData">
+            <summary>
+            Struct sForcePlateData
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfAnalogChannelData.iFrame">
+            <summary>
+            The frame no
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfAnalogChannelData.nAnalogdatas">
+            <summary>
+            of Analogdata channels
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfAnalogChannelData.nSubFrame">
+            <summary>
+            sub frame number
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfAnalogChannelData.Analogdata">
+            <summary>
+            Analog channel data
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfAnalogChannelData.Timecode">
+            <summary>
+            SMPTE timecode (if available)
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfAnalogChannelData.TimecodeSubframe">
+            <summary>
+            timecode sub-frame data
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfAnalogChannelData.TimeStamp">
+            <summary>
+             FrameGroup timestamp
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sFrameOfAnalogChannelData.Params">
+            <summary>
+            host defined parameters
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.sForcePlateData">
+            <summary>
+            Struct sForcePlateData
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlateData.Fxyz">
+            <summary>
+            The fxyz
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlateData.xyz">
+            <summary>
+            The xyz
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlateData.Mfree">
+            <summary>
+            The mfree
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.sForcePlates">
+            <summary>
+            Struct sForcePlates
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlates.FrameNo">
+            <summary>
+            The frame no
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlates.ForcePlatesCount">
+            <summary>
+            The force plates count
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sForcePlates.ForcePlates">
+            <summary>
+            The force plates
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.sMarkerSetData">
+            <summary>
+            Struct sMarkerSetData
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sMarkerSetData.Name">
+            <summary>
+            The name
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sMarkerSetData.MarkerCount">
+            <summary>
+            The marker count
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sMarkerSetData.Markers">
+            <summary>
+            The markers, Pointer to float[MarkerCount][3]
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.sRigidBodyData">
+            <summary>
+            Struct sRigidBodyData
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyData.Id">
+            <summary>
+            The identifier
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyData.X">
+            <summary>
+            The x
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyData.Y">
+            <summary>
+            The y
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyData.Z">
+            <summary>
+            The z
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyData.QX">
+            <summary>
+            The qx
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyData.QY">
+            <summary>
+            The qy
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyData.QZ">
+            <summary>
+            The qz
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyData.QW">
+            <summary>
+            The qw
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyData.NMarkers">
+            <summary>
+            The n markers
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyData.Markers">
+            <summary>
+            The markers
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyData.MarkerIDs">
+            <summary>
+            The marker ids
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyData.MarkerSizes">
+            <summary>
+            The marker sizes
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyData.MeanError">
+            <summary>
+            The mean error
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sRigidBodyData.Params">
+            <summary>
+            The parameters
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.sSkeletonData">
+            <summary>
+            Struct sSkeletonData
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sSkeletonData.Id">
+            <summary>
+            The identifier
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sSkeletonData.RigidBodyCount">
+            <summary>
+            The rigid body count
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sSkeletonData.RigidBodies">
+            <summary>
+            The rigid bodies
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.sMarker">
+            <summary>
+            Struct sMarker
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sMarker.Id">
+            <summary>
+            The identifier
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sMarker.X">
+            <summary>
+            The position x
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sMarker.Y">
+            <summary>
+            The position y
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sMarker.Z">
+            <summary>
+            The position z
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sMarker.Size">
+            <summary>
+            The size
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sMarker.Params">
+            <summary>
+            The parameters(reserved)
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.sNotifyMsg">
+            <summary>
+            Struct sNotifyMsg
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sNotifyMsg.Type">
+            <summary>
+            The type
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sNotifyMsg.Value">
+            <summary>
+            The value
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sNotifyMsg.Param1">
+            <summary>
+            The param1
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sNotifyMsg.Param2">
+            <summary>
+            The param2
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sNotifyMsg.Param3">
+            <summary>
+            The param3
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sNotifyMsg.Param4">
+            <summary>
+            The param4
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sNotifyMsg.TimeStamp">
+            <summary>
+            The time stamp
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sNotifyMsg.Msg">
+            <summary>
+            The MSG
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.sNokovSDKClientConnectParams">
+            <summary>
+            Struct sNokovSDKClientConnectParams
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sNokovSDKClientConnectParams.ConnectionType">
+            <summary>
+            The connection type
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sNokovSDKClientConnectParams.ServerCommandPort">
+            <summary>
+            The server command port
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sNokovSDKClientConnectParams.ServerDataPort">
+            <summary>
+            The server data port
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sNokovSDKClientConnectParams.ServerAddress">
+            <summary>
+            The server address
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sNokovSDKClientConnectParams.LocalAddress">
+            <summary>
+            The local address
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.sNokovSDKClientConnectParams.MulticastAddress">
+            <summary>
+            The multicast address
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.tMarkerData">
+            <summary>
+            Struct tMarkerData
+            </summary>
+        </member>
+        <member name="F:CSNokovSDK.tMarkerData.Values">
+            <summary>
+            The values x,y,z
+            </summary>
+        </member>
+        <member name="T:CSNokovSDK.NokovSDKFrameReceivedCallback">
+            <summary>
+            Delegate NokovSDKFrameReceivedCallback
+            </summary>
+            <param name="pFrameOfMocapData">The p frame of mocap data.</param>
+            <param name="pUserData">The p user data.</param>
+        </member>
+        <member name="T:CSNokovSDK.NokovSDKMessageCallback">
+            <summary>
+            Delegate NokovSDKMessageCallback
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="szTraceMessage">The sz trace message.</param>
+        </member>
+        <member name="T:CSNokovSDK.NokovNotifyMsgCallback">
+            <summary>
+            Delegate NokovNotifyMsgCallback
+            </summary>
+            <param name="pNotify">The pointer of sNotifyMsg.</param>
+            <param name="pUserData">The p user data.</param>
+        </member>
+        <member name="T:CSNokovSDK.NokovAnalogChannelCallback">
+            <summary>
+            Delegate NokovAnalogDataCallback
+            </summary>
+            <param name="pNotify">The pointer of sNotifyMsg.</param>
+            <param name="pUserData">The p user data.</param>
+        </member>
+        <member name="T:CSNokovSDK.CNokovSDK">
+            <summary>
+            Class CSNokovSDK.
+            </summary>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.CreateClient(System.IntPtr@)">
+            <summary>
+            Creates the client and get the valid handle token
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.DestroyClient(System.IntPtr)">
+            <summary>
+            Destroys the client.
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.NokovVersion(System.IntPtr,System.Byte[])">
+            <summary>
+            Nokovs the version.
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="version">The host app's NokovSDK version [major.minor.build.revision]</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.DecodeID(System.IntPtr,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            Decodes the identifier.
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="compositeId">The composite identifier.</param>
+            <param name="entityId">The entity identifier.</param>
+            <param name="memberId">The member identifier.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.Initialize(System.IntPtr,System.String)">
+            <summary>
+            Initializes the network connection
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="szServerAddress">The server address.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.Uninitialize(System.IntPtr)">
+            <summary>
+            Uninitialize the network connection.
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.SetVerbosityLevel(System.IntPtr,System.Int32)">
+            <summary>
+            Sets the verbosity level.
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="level">The level.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.SetDataCallback(System.IntPtr,CSNokovSDK.NokovSDKFrameReceivedCallback,System.IntPtr)">
+            <summary>
+            Sets the data callback.
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="dataCallback">The data callback.</param>
+            <param name="pUserData">The p user data.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.SetMessageCallback(System.IntPtr,CSNokovSDK.NokovSDKMessageCallback)">
+            <summary>
+            Sets the message callback.
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="messageCallBack">The message call back.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.SetNotifyMsgCallback(System.IntPtr,CSNokovSDK.NokovNotifyMsgCallback,System.IntPtr)">
+            <summary>
+            Sets the notify callback.
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="dataCallback">The data callback.</param>
+            <param name="pUserData">The p user data.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.SetAnalogChCallback(System.IntPtr,CSNokovSDK.NokovAnalogChannelCallback,System.IntPtr)">
+            <summary>
+            Sets the analog data callback.
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="dataCallback">The data callback.</param>
+            <param name="pUserData">The p user data.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.GetServerDescription(System.IntPtr)">
+            <summary>
+            Gets the server description.
+            </summary>
+            <param name="pServerDescription">The point of  server description.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.GetDataDescriptions(System.IntPtr,System.IntPtr@)">
+            <summary>
+            Gets the data descriptions.
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="pDataDescriptions">The point of data descriptions.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.GetTposeDataDescriptions(System.IntPtr,System.String,System.IntPtr@)">
+            <summary>
+            Gets the data descriptions.
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="name">The body name.</param>
+            <param name="pDataDescriptions">The point of data descriptions.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.DecodeTimecode(System.IntPtr,System.UInt32,System.UInt32,System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            Decodes the timecode.
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="inTimecode">The in timecode.</param>
+            <param name="inTimecodeSubframe">The in timecode subframe.</param>
+            <param name="hour">The hour.</param>
+            <param name="minute">The minute.</param>
+            <param name="second">The second.</param>
+            <param name="frame">The frame.</param>
+            <param name="subframe">The subframe.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.TimecodeStringify(System.IntPtr,System.UInt32,System.UInt32,System.Text.StringBuilder,System.Int32)">
+            <summary>
+            Timecodes the stringify.
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="inTimecode">The in timecode.</param>
+            <param name="inTimecodeSubframe">The in timecode subframe.</param>
+            <param name="Buffer">The buffer.</param>
+            <param name="BufferSize">Size of the buffer.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.GetLastFrameOfMocapData(System.IntPtr)">
+            <summary>
+            Get the last frame of mocap data.
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <returns>IntPtr.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.NokovFreeFrame(System.IntPtr,System.IntPtr)">
+            <summary>
+             Free the frame.
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="pFrameOfMocapData">The p frame of mocap data.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.GetLastFrameDataByType(System.IntPtr,System.Int32,System.Int32@)">
+            <summary>
+             Get the last frame data of type
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="type">The type of data, refer to NokovMocapDataType</param>
+            <param name="value">The value of data.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.GetLastFrameLatency(System.IntPtr,System.Single@)">
+            <summary>
+             Get the last frame latency
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="value">The value of data.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.GetLastFrameSubframe(System.IntPtr,System.UInt32@)">
+            <summary>
+             Get the last frame sub frame
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="value">The value of data.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.GetLastFrameTimecode(System.IntPtr,System.Int32@)">
+            <summary>
+             Get the last frame timecode
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="value">The value of data.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.GetLastFrameTimeStamp(System.IntPtr,System.Int64@)">
+            <summary>
+             Get the last frame data timestamp
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="value">The value of data.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.GetLastFrameMarkerByName(System.IntPtr,System.String,System.String,System.IntPtr@)">
+            <summary>
+             Get the last frame marker data
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="markersetName">The name of markerset.</param>
+            <param name="markerName">The name of marker.</param>
+            <param name="value">The value of data float**.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.GetLastFrameRigidBodyByName(System.IntPtr,System.String,System.IntPtr@)">
+            <summary>
+             Get the last frame rigidbody data
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="name">The name of marker.</param>
+            <param name="value">The value of data sRigidBodyData**.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.GetLastFrameSkeletonByName(System.IntPtr,System.String,System.String,System.IntPtr@)">
+            <summary>
+             Get the last frame bone data
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="markersetName">The name of markerset.</param>
+            <param name="boneName">The name of bone.</param>
+            <param name="value">The value of data sRigidBodyData**.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.GetLastFrameLabeledMarker(System.IntPtr,System.IntPtr@)">
+            <summary>
+             Get the last frame labeled markers data
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="value">The value of data sMarker**.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.GetLastFrameUndefined(System.IntPtr,System.Int32,System.IntPtr@)">
+            <summary>
+             Get the last frame unlabled markers data
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="index">The index of markers.</param>
+            <param name="value">The value of data float**.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+        <member name="M:CSNokovSDK.CNokovSDK.GetLastFrameAnalogdata(System.IntPtr,System.String,System.Single@)">
+            <summary>
+             Get the last frame analog data
+            </summary>
+            <param name="clientHandle">The client handle.</param>
+            <param name="chName">The name of channel.</param>
+            <param name="value">The value of data.</param>
+            <returns>NokovSDKError.</returns>
+        </member>
+    </members>
+</doc>

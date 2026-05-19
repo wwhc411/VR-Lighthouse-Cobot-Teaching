@@ -1,0 +1,20 @@
+=== Hand-Eye Calibration - Eye-to-Hand ===
+Using Custom DLL - Tsai Algorithm
+Calibration Points: 13
+
+=== Calibration Success ===
+
+Camera to Robot Base Transform (Cam → Base):
+  Position (mm): (-200.980, -566.403, 314.132)
+  Rotation (Quaternion): (w:0.6755, x:0.6715, y:-0.2160, z:-0.2146)
+
+Transform in Unity Coordinate System:
+  Position (m): (-0.20, -0.57, 0.31)
+  Rotation (deg): (54.55, 270.47, 270.60)
+
+4x4 Transform Matrix:
+  [0.814609, -0.000226, -0.580010, -0.200980]
+  [-0.579999, 0.006039, -0.814595, -0.566403]
+  [0.003687, 0.999982, 0.004788, 0.314132]
+  [0.000000, 0.000000, 0.000000, 1.000000]
+
