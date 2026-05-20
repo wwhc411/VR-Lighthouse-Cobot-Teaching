@@ -7,9 +7,9 @@
 
 演示视频展示系统的快速示教与回放流程（含外部跟踪与轨迹校正的关键环节）：
 
-- [demo_video_720p.mp4](demo_video_720p.mp4)
+- [demo_video.mp4](demo_video.mp4)
 
-[![Demo Video](Video%20cover.png)](demo_video_720p.mp4)
+[![Demo Video](Video%20cover.png)](demo_video.mp4)
 
 ## Paper Information
 
