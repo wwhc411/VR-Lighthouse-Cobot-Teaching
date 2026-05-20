@@ -43,16 +43,15 @@ Experiments on four representative trajectory types, validated by an independent
 ```
 .
 ├── Collaborative Robots Teach-in System_unity/   # Unity software project
-│   ├── Assets/
-│   │   ├── Scripts/          # Core C# scripts (calibration, trajectory recording, TCP communication)
-│   │   ├── HTC.UnityPlugin/  # HTC Vive SteamVR integration
-│   │   ├── Nokov/            # NOKOV motion capture system interface
-│   │   ├── Scenes/           # Unity scene files
-│   │   └── ...
-│   ├── Packages/
-│   └── ProjectSettings/
-│
-└── data.csv/                                     # Experimental trajectory data
+   ├── Assets/
+   │   ├── Scripts/          # Core C# scripts (calibration, trajectory recording, TCP communication)
+   │   ├── HTC.UnityPlugin/  # HTC Vive SteamVR integration
+   │   ├── Nokov/            # NOKOV motion capture system interface
+   │   ├── Scenes/           # Unity scene files
+   │   └── ...
+   ├── Packages/
+   └── ProjectSettings/
+
 ```
 ---
 
@@ -112,19 +111,6 @@ The Unity project (`Collaborative Robots Teach-in System_unity/`) implements the
 
 ---
 
-## Experimental Data
-
-### Data Description
-
-The `data.csv/` folder contains trajectory data from **four representative task trajectories** tested in the paper, captured by the NOKOV motion capture system as the independent ground-truth benchmark. Each trajectory type is evaluated under four conditions:
-
-| File Suffix | Description |
-|-------------|-------------|
-| `NOKOV_benchmark` | Ground-truth demonstration reference captured by the NOKOV system (`M_O`) |
-| `our_method` | Corrected playback trajectory captured by NOKOV (`M_O_corr`) — proposed workflow |
-| `SVD` | Corrected playback trajectory captured by NOKOV — global rigid (Kabsch/SVD) baseline (B2) |
-| `Uncompen-sated open-loop playback` | Uncompensated open-loop playback trajectory captured by NOKOV (`M_O_open`) — baseline B1 |
-
 ## Citation
 
 If you use this software or data in your research, please cite our paper:
@@ -154,10 +140,5 @@ The experimental data (`data.csv/`) is released under [CC BY 4.0](https://creati
 ---
 
 ## Contact
-
-For questions regarding the code or data, please contact:
-
-- **Xiaolong Xu** – xuxiaolong@sdu.edu.cn  
-- **Yujie Sun** – sunyujie@sdu.edu.cn  
 
 School of Airspace Science and Engineering, Shandong University, Weihai, China
