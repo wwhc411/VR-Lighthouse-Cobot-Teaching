@@ -7,7 +7,12 @@
 
 演示视频展示系统的快速示教与回放流程（含外部跟踪与轨迹校正的关键环节）：
 
-- [5月20日.mp4](5%E6%9C%8820%E6%97%A5.mp4)
+- [demo_video.mp4](demo_video.mp4)
+
+<video controls width="720">
+   <source src="https://github.com/wwhc411/VR-Lighthouse-Cobot-Teaching/raw/main/demo_video.mp4" type="video/mp4">
+   Your browser does not support the video tag.
+</video>
 
 ## Paper Information
 
