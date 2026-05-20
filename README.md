@@ -123,31 +123,9 @@ The Unity project (`Collaborative Robots Teach-in System_unity/`) implements the
 
 ---
 
-## Citation
-
-If you use this software or data in your research, please cite our paper:
-
-```bibtex
-@article{wang2025vr,
-  title   = {VR Lighthouse-Based Rapid Teaching System for Collaborative Robots
-             with Execution-Feedback Trajectory Error Compensation},
-  author  = {Wang, WenHao and Xu, Xiaolong and Sun, Yujie and Song, Yong
-             and Zhou, Lelai and Tian, Xincheng},
-  journal = {Robotics and Computer-Integrated Manufacturing},
-  year    = {2025},
-  publisher = {Elsevier}
-}
-```
-
-> **Note:** Please update the DOI and volume/page information once the paper is formally published.
-
----
-
 ## License
 
 This project is released under the [MIT License](LICENSE).
-
-The experimental data (`data.csv/`) is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ---
 
