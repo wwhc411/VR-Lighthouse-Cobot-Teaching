@@ -5,7 +5,7 @@
 
 ## Demo Video
 
-演示视频展示系统的快速示教与回放流程（含外部跟踪与轨迹校正的关键环节）：
+The demonstration video shows the rapid teaching and playback process of the system (including the key links of external tracking and trajectory correction):
 
 - [demo_video.mp4](demo_video.mp4)
 
@@ -15,9 +15,9 @@
 
 **Title:** VR Lighthouse-Based Rapid Teaching System for Collaborative Robots with Execution-Feedback Trajectory Error Compensation
 
-**Authors:** WenHao Wang, Xiaolong Xu†, Yujie Sun†, Yong Song, Lelai Zhou, Xincheng Tian
+**Authors:** Wenhao Wang, Yujie Sun, Xiaolong Xu†, Yong Song, Lelai Zhou, Xincheng Tian, Yibin Li
 
-> † Corresponding authors: xuxiaolong@sdu.edu.cn, sunyujie@sdu.edu.cn
+> † Corresponding authors: xuxiaolong@sdu.edu.cn
 
 **Affiliations:**
 - School of Airspace Science and Engineering, Shandong University, Weihai 264209, China
