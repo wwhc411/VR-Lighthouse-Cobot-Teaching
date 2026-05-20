@@ -3,6 +3,12 @@
 [![Journal](https://img.shields.io/badge/Journal-Robotics%20and%20Computer--Integrated%20Manufacturing-blue)](https://www.sciencedirect.com/journal/robotics-and-computer-integrated-manufacturing)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
+## Demo Video
+
+演示视频展示系统的快速示教与回放流程（含外部跟踪与轨迹校正的关键环节）：
+
+- [5月20日.mp4](5%E6%9C%8820%E6%97%A5.mp4)
+
 ## Paper Information
 
 **Title:** VR Lighthouse-Based Rapid Teaching System for Collaborative Robots with Execution-Feedback Trajectory Error Compensation
