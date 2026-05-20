@@ -90,6 +90,8 @@ The Unity project (`Collaborative Robots Teach-in System_unity/`) implements the
 | Robot | Universal Robots UR5 (UR software 5.x, with network access) |
 | NOKOV SDK | Optional – only required for NOKOV motion capture integration |
 
+<img src="3.1Overall%20system%20architecture%20of%20the%20proposed%20platform..png" alt="Overall system architecture" width="720">
+
 ### Key Features
 
 1. **Teaching Acquisition Module**
@@ -106,6 +108,8 @@ The Unity project (`Collaborative Robots Teach-in System_unity/`) implements the
 
 4. **Unified External Reference**
    - Both demonstration trajectory and execution-feedback trajectory are recorded in the same lighthouse coordinate frame, enabling direct comparison and error field modeling
+
+<img src="3.6Workflow%20of%20demonstration%2C%20playback%2C%20and%20feedback%20recording..png" alt="Workflow of demonstration, playback, and feedback recording" width="720">
 
 ### How to Use
 
